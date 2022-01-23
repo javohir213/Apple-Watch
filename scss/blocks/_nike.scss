@@ -1,0 +1,85 @@
+.nike-top{
+  padding-top: 68px;
+  margin-bottom: 168px;
+}
+
+.nike-top__list{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nike-top__item{
+  width: 280px;
+}
+
+.nike-top__title{
+  font-weight: $main-weight;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.nike-top__text{
+  font-size: 15px;
+  line-height: 160%;
+  color: #333333;
+}
+
+
+.dots__item{
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #DDDDDD;
+}
+
+.dots__item + .dots__item{
+  margin-left: 10px;
+}
+
+.learn{
+  display: flex;
+  align-items: center;
+  &:hover{
+    .learn__item{
+      width: 60px;
+    }
+  }
+}
+
+.learn__item{
+  display: inline-block;
+  width: 40px;
+  height: 3px;
+  margin-right: 10px;
+  background-color: #EA625C;
+  transition: width 0.6s ease;
+}
+
+.learn__link{
+  font-weight: $main-weight;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #EA625C;
+}
+
+.nike-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 70px;
+}
+
+.nike-bottom__info{
+  width: 490px;
+}
+
+.nike-bottom__img{
+  width: 400px;
+  height: 600px;
+  vertical-align: middle;
+}

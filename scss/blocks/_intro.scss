@@ -1,0 +1,45 @@
+.intro-site{
+  background-image: url(../../images/intro-bgi.jpg);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 640px) calc(50% + 60px);
+  border-bottom: 2px solid #DDDDDD;
+}
+
+.intro-site__info{
+  width: 490px;
+  padding-top: 180px;
+  padding-bottom: 185px;
+}
+
+.info-site__title{
+  margin: 0;
+  padding: 0;
+  font-weight: $main-weight;
+  font-size: 50px;
+  line-height: 120%;
+}
+
+.info-site__text{
+  margin: 30px 0;
+  font-size: 16px;
+  line-height: 150%;
+  color: #777777;
+  padding-left: 40px;
+  border-left: 3px solid #888888;
+}
+
+.btn{
+  padding: 12px 38.5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #EA625C;
+  transition: background-color 0.4s ease;
+  &:hover{
+    background-color: #c9534d;
+  }
+}
